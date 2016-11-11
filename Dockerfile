@@ -1,4 +1,3 @@
-FROM java:7
-COPY helloworld.java .
-RUN javac helloworld.java
-CMD ["java" ,"helloworld" ]
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y curl \
+					 vim
