@@ -1,1 +1,1 @@
-hello from master Pipeline
+echo 'hello from master Pipeline'
