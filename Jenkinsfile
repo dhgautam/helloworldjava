@@ -1,5 +1,5 @@
 #!groovy
 node {
-echo 'hello from INtegration Pipeline'
+echo 'hello from Staging Pipeline'
 }
 
