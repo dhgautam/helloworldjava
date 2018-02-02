@@ -1,4 +1,4 @@
 #!groovy
 node {
-echo 'hello from master Pipeline'
+echo 'Hello from master Pipeline'
 }
