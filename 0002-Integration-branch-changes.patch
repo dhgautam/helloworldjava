@@ -1,0 +1,26 @@
+From 16dd4f6c9aa44c89548611067a8c0e5bddf0ed58 Mon Sep 17 00:00:00 2001
+From: DG <dg@dg.com>
+Date: Fri, 2 Dec 2016 13:44:44 -0800
+Subject: [PATCH 2/4] Integration branch changes
+
+---
+ Jenkinsfile | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Jenkinsfile
+
+diff --git a/Jenkinsfile b/Jenkinsfile
+new file mode 100644
+index 0000000..7a3168d
+--- /dev/null
++++ b/Jenkinsfile
+@@ -0,0 +1,7 @@
++#!groovy
++# Best of Jenkinsfile
++# `Jenkinsfile` is a groovy script DSL for defining CI/CD workflows for Jenkins
++node {
++echo 'hello from INtegration Pipeline'
++}
++
+-- 
+2.10.1 (Apple Git-78)
+

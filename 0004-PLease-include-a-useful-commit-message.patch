@@ -1,0 +1,26 @@
+From 9cc73e13dedebe95b0d5bddbaf3fb34275394a26 Mon Sep 17 00:00:00 2001
+From: D <dg@dg.com>
+Date: Fri, 2 Feb 2018 06:41:17 -0800
+Subject: [PATCH 4/4] PLease include a useful commit message!
+
+---
+ Jenkinsfile | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/Jenkinsfile b/Jenkinsfile
+index ea752c1..0213ec6 100644
+--- a/Jenkinsfile
++++ b/Jenkinsfile
+@@ -1,5 +1,9 @@
+ #!groovy
+ node {
++<<<<<<< HEAD
+ echo 'hello from INtegration Pipeline'
++=======
++echo 'Hello from master Pipeline'
++>>>>>>> 29f8fcf... PLease include a useful commit message!
+ }
+ 
+-- 
+2.10.1 (Apple Git-78)
+

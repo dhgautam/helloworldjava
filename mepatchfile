@@ -1,0 +1,20 @@
+From 8c5e10f3bea6ce0884327f6a9f7d8f8bab348865 Mon Sep 17 00:00:00 2001
+From: DG <dg@dg.com>
+Date: Mon, 27 Mar 2017 15:54:30 -0700
+Subject: [PATCH] Test int file
+
+---
+ int_test | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 int_test
+
+diff --git a/int_test b/int_test
+new file mode 100644
+index 0000000..438d007
+--- /dev/null
++++ b/int_test
+@@ -0,0 +1 @@
++This is a test int branch file
+-- 
+2.10.1 (Apple Git-78)
+

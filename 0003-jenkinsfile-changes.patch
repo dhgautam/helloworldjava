@@ -1,0 +1,23 @@
+From c6c2aa97ac74f17b1541013ea7c3c4a88c3094e8 Mon Sep 17 00:00:00 2001
+From: DG <dg@dg.com>
+Date: Fri, 2 Dec 2016 13:54:18 -0800
+Subject: [PATCH 3/4] jenkinsfile changes
+
+---
+ Jenkinsfile | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/Jenkinsfile b/Jenkinsfile
+index 7a3168d..ea752c1 100644
+--- a/Jenkinsfile
++++ b/Jenkinsfile
+@@ -1,6 +1,4 @@
+ #!groovy
+-# Best of Jenkinsfile
+-# `Jenkinsfile` is a groovy script DSL for defining CI/CD workflows for Jenkins
+ node {
+ echo 'hello from INtegration Pipeline'
+ }
+-- 
+2.10.1 (Apple Git-78)
+

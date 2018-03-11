@@ -1,0 +1,32 @@
+From 6a8c0c197ff8a21130ee75d38e2f7c5187693229 Mon Sep 17 00:00:00 2001
+From: DG <dg@dg.com>
+Date: Fri, 2 Dec 2016 11:54:53 -0800
+Subject: [PATCH 1/4] Add Jenkisnfile
+
+---
+ Dockerfile_old | 4 ++++
+ Jenkisnfile    | 1 +
+ 2 files changed, 5 insertions(+)
+ create mode 100644 Dockerfile_old
+ create mode 100644 Jenkisnfile
+
+diff --git a/Dockerfile_old b/Dockerfile_old
+new file mode 100644
+index 0000000..03a13b5
+--- /dev/null
++++ b/Dockerfile_old
+@@ -0,0 +1,4 @@
++FROM java:7
++COPY helloworld.java .
++RUN javac helloworld.java
++CMD ["java" ,"helloworld" ]
+diff --git a/Jenkisnfile b/Jenkisnfile
+new file mode 100644
+index 0000000..b7c5c89
+--- /dev/null
++++ b/Jenkisnfile
+@@ -0,0 +1 @@
++hello from Master Pipeline
+-- 
+2.10.1 (Apple Git-78)
+
